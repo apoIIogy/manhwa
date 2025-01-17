@@ -20,15 +20,7 @@
         <label for="2-stars" class="star">&#9733;</label>
         <input type="radio" id="1-star" name="rating" value="1" />
         <label for="1-star" class="star">&#9733;</label>
-        <button type="submit">Noter</button>
     </form>
-
-    <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $rating = $_POST['rating'];
-        echo "<p>Vous avez noté : $rating étoile(s) !</p>";
-    }
-    ?>
 </div>
 
 </body>
