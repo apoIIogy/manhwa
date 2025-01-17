@@ -14,8 +14,6 @@ body {
     /* Utilise un flexbox pour aligner les étoiles */
     justify-content: center;
     /* Centre les étoiles horizontalement */
-    direction: row-reverse;
-    /* Affiche les étoiles de droite à gauche */
     font-size: 2rem;
     /* Taille des étoiles */
 }
