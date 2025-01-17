@@ -1,31 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    /* Utilisation d'une police standard */
     text-align: center;
-    /* Centre le contenu horizontalement */
     background-color: #f0f0f0;
-    /* Couleur de fond gris clair */
     padding: 20px;
-    /* Ajoute un peu d'espace autour du contenu */
 }
 
 .star-rating {
     display: flex;
-    /* Utilise un flexbox pour aligner les étoiles */
     justify-content: center;
-    /* Centre les étoiles horizontalement */
     font-size: 2rem;
-    /* Taille des étoiles */
+    /* Affiche les étoiles de gauche à droite */
 }
 
 .star-rating input[type="radio"] {
     display: none;
-    /* Cache les boutons radio pour ne laisser visibles que les étoiles */
+    /* Cache les boutons radio */
 }
 
 .star-rating label {
     cursor: pointer;
-    /* Change le curseur en une main au survol pour indiquer que c'est cliquable */
     color: #ddd;
     /* Couleur des étoiles non sélectionnées */
 }
