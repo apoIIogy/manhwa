@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    /* Affiche les étoiles de gauche à droite */
+    /* Affiche les étoiles de gauche à droite /
 }*/
 
 .star-rating input[type="radio"] {
